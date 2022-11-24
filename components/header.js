@@ -7,8 +7,8 @@ export default function Header({isAuthenticated, user: {name}}) {
                 <div className="relative flex items-center justify-between">
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex items-center justify-center filter drop-shadow-md items-center h-20">
-                            <Image className="block h-16 w-auto lg:hidden" width="500" height="500" src="/../public/images/logo_branco_s.png" alt="SciTec Jr."/>
-                            <Image className="hidden h-16 w-auto lg:block" width="500" height="500" src="/../public/images/logo_branco_s.png" alt="SciTec Jr."/>
+                            <Image className="block h-24 w-auto lg:hidden" width="500" height="500" src="/../public/images/logo_branco_texto.png" alt="SciTec Jr."/>
+                            <Image className="hidden h-24 w-auto lg:block" width="500" height="500" src="/../public/images/logo_branco_texto.png" alt="SciTec Jr."/>
                         </div>
                     </div>
                     <div>
