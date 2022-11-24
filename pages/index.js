@@ -6,7 +6,7 @@ import Header from '../components/header'
 export default function Home() {
   return (
     <div className={[styles.container, 'bg-white']}>
-      <Header></Header>
+      <Header user={"Edu"} isAuthenticated="false"></Header>
       <Head>
         <title>SciFinance | Home</title>
         <meta name="description" content="Home screen for SciFinance App" />
